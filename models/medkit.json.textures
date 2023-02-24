@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "extrusiontexture",
+        "1": "toppiecetexture",
+        "2": "bodypiecetexture",
+        "3": "rightpiecetexture",
+        "4": "leftpiecetexture"
+      },
+      "name": "default"
+    }
+  }
+}
