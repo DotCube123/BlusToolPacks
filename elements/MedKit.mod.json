@@ -1,32 +1,60 @@
 {
   "_fv": 34,
-  "_type": "tool",
+  "_type": "armor",
   "definition": {
-    "renderType": 1,
-    "texture": "medkit",
-    "customModelName": "medkit:default",
-    "name": "Med Kit",
-    "specialInfo": [
-      "Heals HP to max"
-    ],
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "medkit",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "COMBAT"
     },
-    "toolType": "Special",
-    "harvestLevel": 1,
-    "efficiency": 0.0,
-    "attackSpeed": 0.0,
+    "armorTextureFile": "medkit",
+    "helmetName": "Med Kit Helmet",
+    "bodyName": "MedKit",
+    "leggingsName": "Med Kit Leggings",
+    "bootsName": "Med Kit Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [
+      "Heals you when you hold it and Right Click"
+    ],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "ModelHealthKit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "medkittexture.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 0,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
     "enchantability": 0,
-    "damageVsEntity": 4.0,
-    "usageCount": 1,
-    "blocksAffected": [],
-    "hasGlow": true,
-    "repairItems": [],
-    "immuneToFire": true,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "MedKitRightclicked"
-    }
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
   }
 }

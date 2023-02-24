@@ -11,22 +11,22 @@ import net.mcreator.blustoolpacks.BlustoolpacksMod;
 
 import java.util.Map;
 
-public class MedKitRightclickedProcedure {
+public class MedKitRightClickProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				BlustoolpacksMod.LOGGER.warn("Failed to load dependency entity for procedure MedKitRightclicked!");
+				BlustoolpacksMod.LOGGER.warn("Failed to load dependency entity for procedure MedKitRightClick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).setHealth((float) 100);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You have healed yourself!"), (true));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You have healed yourself"), (true));
 		}
 		if (entity instanceof PlayerEntity) {
-			ItemStack _stktoremove = new ItemStack(MedKitItem.block);
+			ItemStack _stktoremove = new ItemStack(MedKitItem.body);
 			((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 1,
 					((PlayerEntity) entity).container.func_234641_j_());
 		}

@@ -1,12 +1,26 @@
 {
   "mod_elements": [
     {
-      "name": "MedKitRightclicked",
-      "type": "procedure",
+      "name": "MedKit",
+      "type": "armor",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "med_kit_rightclicked",
+      "registry_name": "med_kit",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "MedKitRightClick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "med_kit_right_click",
       "metadata": {
         "dependencies": [
           {
@@ -15,21 +29,16 @@
           }
         ]
       }
-    },
-    {
-      "name": "MedKit",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "med_kit"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.blustoolpacks.med_kit": "Med Kit"
+      "item.blustoolpacks.med_kit_helmet": "Med Kit Helmet",
+      "item.blustoolpacks.med_kit_boots": "Med Kit Boots",
+      "item.blustoolpacks.med_kit_leggings": "Med Kit Leggings",
+      "item.blustoolpacks.med_kit_chestplate": "MedKit"
     }
   },
   "foldersRoot": {
