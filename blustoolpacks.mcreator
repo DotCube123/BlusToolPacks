@@ -12,7 +12,8 @@
         "el": false,
         "eb": false,
         "ec": true
-      }
+      },
+      "path": "~/Items/Heals"
     },
     {
       "name": "MedKitRightClick",
@@ -28,7 +29,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Items/Heals"
     }
   ],
   "variable_elements": [],
@@ -43,7 +45,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Heals",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "blustoolpacks",
