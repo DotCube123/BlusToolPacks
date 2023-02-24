@@ -1,6 +1,3 @@
 {
-  "item.blustoolpacks.med_kit_helmet": "Med Kit Helmet",
-  "item.blustoolpacks.med_kit_boots": "Med Kit Boots",
-  "item.blustoolpacks.med_kit_leggings": "Med Kit Leggings",
-  "item.blustoolpacks.med_kit_chestplate": "MedKit"
+  "item.blustoolpacks.med_kit": "Med Kit"
 }
