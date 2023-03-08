@@ -31,22 +31,6 @@
         ]
       },
       "path": "~/Items/Heals"
-    },
-    {
-      "name": "HealthBar",
-      "type": "overlay",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "health_bar"
-    },
-    {
-      "name": "HealthBarOverlay",
-      "type": "code",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "health_bar_overlay"
     }
   ],
   "variable_elements": [],
